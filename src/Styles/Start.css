@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+}
+.container .greetings {
+  flex-basis: 52%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -85px;
+}
+.container .greetings .text {
+  width: 505px;
+}
+.container .greetings .text h1 {
+  font-weight: 600;
+  font-size: 55px;
+  color: #1D77DF;
+}
+.container .greetings .text p {
+  font-weight: 400;
+  font-size: 30px;
+  text-align: left;
+  margin-left: 8px;
+  line-height: 45px;
+}
+.container .auth {
+  width: 48vw;
+  height: 100vh;
+  background: no-repeat center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .auth .select_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 575px;
+  height: 420px;
+  background: white;
+  border-radius: 10px;
+}
+.container .auth .select_form .form__btn {
+  margin-top: 80px;
+}
+.container .auth .select_form .al {
+  margin-top: 45px;
+  line-height: 29px;
+  font-size: 24px;
+  margin-bottom: 45px;
+}
+
+/*# sourceMappingURL=Start.css.map */
